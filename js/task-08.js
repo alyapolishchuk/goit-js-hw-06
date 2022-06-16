@@ -11,10 +11,7 @@ function funk(event) {
   if (email.value === '' || password.value === '') {
     return alert('Please fill in all the fields!');
   }
-  console.log(`Email: ${email}, Password: ${password}`);
+  console.log(`Email: ${email.value}, Password: ${password.value}`);
+   event.currentTarget.reset();
 }
 
-function reset() {
-  form.email = '';
-  form.password = '';
-}

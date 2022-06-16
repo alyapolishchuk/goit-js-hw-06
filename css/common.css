@@ -26,6 +26,5 @@ button {
 .gallery{
   list-style: none;
   display: flex;
-  flex-direction: column-reverse;
   gap: 20px;
 }
